@@ -79,7 +79,7 @@ public class MyHashTable<K, V> {
                 } else {
                     chainArray[index] = head.next;
                 }
-                size++;
+                size--;
                 return head.value;
             }
             prev = head;
